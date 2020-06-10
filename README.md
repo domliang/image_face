@@ -13,10 +13,10 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 
-插件开发文档[https://flutter.dev/docs/development/packages-and-plugins/developing-packages]
+[插件开发文档](https://flutter.dev/docs/development/packages-and-plugins/developing-packages)
 
-平台代码[https://flutter.dev/docs/development/platform-integration/platform-channels?tab=ios-channel-swift-tab]
+[平台代码](https://flutter.dev/docs/development/platform-integration/platform-channels?tab=ios-channel-swift-tab)
 
-gitflow[https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow]
+[gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
-commit message 规范 [https://gist.github.com/stephenparish/9941e89d80e2bc58a153]
+[commit message 规范](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
