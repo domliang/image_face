@@ -31,9 +31,9 @@ class _MyAppState extends State<MyApp> {
     String displayMsg = 'loading';
     File pickedFile = await ImagePicker.pickImage(
       source: ImageSource.gallery,
-      maxWidth: 1024,
-      maxHeight: 1024,
-      imageQuality: 50,
+      // maxWidth: 1024,
+      // maxHeight: 1024,
+      // imageQuality: 50,
     );
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {

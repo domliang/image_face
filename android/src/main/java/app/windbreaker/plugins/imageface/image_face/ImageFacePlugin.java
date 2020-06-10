@@ -2,6 +2,7 @@ package app.windbreaker.plugins.imageface.image_face;
 
 import androidx.annotation.NonNull;
 
+import app.windbreaker.plugins.imageface.image_face.util.appUtil;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
@@ -47,7 +48,16 @@ public class ImageFacePlugin implements FlutterPlugin, MethodCallHandler {
   @Override
   public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
     if (call.method.equals("hasFace")) {
-      result.success(false);
+      appUtil apputil=new appUtil();
+      String strpath=call.argument("image");
+      if(apputil.HasFace(strpath))
+      {
+        result.success(true);
+      }
+      else
+      {
+        result.success(false);
+      }
     } else {
       result.notImplemented();
     }
