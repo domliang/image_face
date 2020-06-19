@@ -1,7 +1,6 @@
 name: image_face
 description: A new flutter plugin project.
 version: 0.0.1
-author: domliang
 homepage: https://github.com/domliang/image_face
 
 environment:
