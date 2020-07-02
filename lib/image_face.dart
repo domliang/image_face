@@ -3,22 +3,25 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 
+/// ImageFace class the namespace of this lib
 class ImageFace {
+  /// method channel for image face
   static const MethodChannel _channel = const MethodChannel('image_face');
 
-  // static Future<String> get platformVersion async {
-  //   final String version = await _channel.invokeMethod('getPlatformVersion');
-  //   return version;
-  // }
-
+  /// check the image has face
   static Future<bool> hasFace(File image) async {
     if (image == null) {
+      // if the file is null it is no face
       return false;
     }
-    print('plug start');
+
+    /// image path
     final Map<String, String> arg = {'image': image.path};
+
+    /// incoke native method
     final bool _has = await _channel.invokeMethod('hasFace', arg);
-    print('plug end');
+
+    // return result
     return _has;
   }
 }

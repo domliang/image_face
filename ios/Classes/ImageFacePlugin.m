@@ -31,6 +31,7 @@
                                               context:context
                                               options:opts];                    // 3
 
+
     opts = @{ CIDetectorImageOrientation :
               [[myImage properties] valueForKey:kCGImagePropertyOrientation] }; // 4
     NSArray *features = [detector featuresInImage:myImage options:opts];        // 5

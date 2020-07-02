@@ -1,8 +1,12 @@
 # release
 
+## 1.1.0
+
+* better doc and change objective-c code
+
 ## 1.0.1
 
-* change discription
+* change description
 
 ## 1.0.0
 
