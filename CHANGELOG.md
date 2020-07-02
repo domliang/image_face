@@ -1,5 +1,9 @@
 # release
 
+## 1.0.1
+
+* change discription
+
 ## 1.0.0
 
 * add Android suport
