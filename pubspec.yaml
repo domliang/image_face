@@ -1,6 +1,6 @@
 name: image_face
-description: A new flutter plugin project.
-version: 0.0.1
+description: this plugin only one class ImageFace this class only one static function hasFace accept one parameter image  , get native detect result by _channel.invokeMethod , type is `bool`. if `true` the image has face, if `false` the image has no face. this plugin do one thing only.
+version: 1.0.0
 homepage: https://github.com/domliang/image_face
 
 environment:
